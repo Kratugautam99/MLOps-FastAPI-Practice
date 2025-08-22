@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-with open("insurance_model.pkl", "rb") as f:
+with open("Insurance_Model.pkl", "rb") as f:
     model = pickle.load(f)
 
 MODEL_VERSION = "2.0"

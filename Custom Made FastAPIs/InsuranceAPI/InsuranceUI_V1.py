@@ -3,58 +3,6 @@ import requests
 
 API_URL = "http://localhost:8000/predict"
 
-st.markdown("""
-    <style>
-    .stApp {
-        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-        color: #f0f0f0;
-    }
-    h1, h2, h3 {
-        color: #00bfff !important;
-    }
-    label, .stMarkdown, .stTextInput label, .stNumberInput label, .stSelectbox label {
-        color: #f0f0f0 !important;
-        font-weight: bold;
-    }
-    input, select, textarea {
-        background-color: #111 !important;
-        color: #00bfff !important;
-        border: 1px solid #00bfff !important;
-        border-radius: 5px !important;
-    }
-    .stTextInput > div > input,
-    .stNumberInput > div > input,
-    .stSelectbox > div > div,
-    .stTextArea > div > textarea {
-        background-color: #111 !important;
-        color: #00bfff !important;
-        border: 1px solid #00bfff !important;
-        border-radius: 5px !important;
-    }
-    .stButton > button {
-        background-color: #00bfff !important;
-        color: #000 !important;
-        font-weight: bold;
-        border-radius: 5px;
-        transition: background 0.3s ease;
-    }
-    .stButton > button:hover {
-        background-color: #0090cc !important;
-        color: #fff !important;
-    }
-    .stSuccess {
-        background-color: #003366 !important;
-        border-left: 5px solid #00bfff !important;
-        color: #f0f0f0 !important;
-    }
-    .stError {
-        background-color: #330000 !important;
-        border-left: 5px solid #ff4b4b !important;
-        color: #f0f0f0 !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
 st.title("🛡️ Insurance Premium Category Predictor")
 st.markdown("Enter your details below:")
 
