@@ -18,7 +18,7 @@ A streamlined MLOps pipeline integrating version control, model tracking, and re
   The core programming language for building and orchestrating all components of your ML workflow—data processing, training scripts, API endpoints, and glue code for tools like DVC and MLflow.
 
 - **DVC (Data Version Control)**  
-  A Git-like system for versioning datasets, models, and pipeline stages. It helps you reproduce experiments and collaborate without storing large files in the Git repo, and enables pipeline orchestration with `dvc.yaml`.
+  A Git-like system for versioning datasets, models, and pipeline stages. It helps you reproduce experiments and collaborate without storing large files in the Git repo, and enables pipeline orchestration.
 
 - **Git**  
   Version control for code and lightweight files. Works in tandem with DVC to manage the code+data+model ecosystem in sync, allowing branching, reverting, and change tracking.
@@ -51,3 +51,66 @@ cd MLOps-Dagshub
 - 📦 [Registered Models](https://dagshub.com/kratugautam99/MLOps-Dagshub/models)  
 
 ---
+
+## ⚓ Custom API Developments
+
+### 🩺 DoctorAPI: Comprehensive Patient Data Management
+Purpose: A full-featured REST API for managing patient records in healthcare systems.
+
+  **🔧 Key Features**
+  CRUD Operations: Add, edit, delete, and retrieve patient records.
+  
+  Computed Fields: BMI and health verdict (Underweight, Normal, Overweight, Obese) are auto-calculated.
+  
+  Sorting & Filtering: Patients can be sorted by age, height, weight, or BMI.
+  
+  Schema Validation: Strong Pydantic models ensure data integrity.
+  
+  Persistence: Uses patients.json for lightweight storage.
+  
+  **🧠 Use Cases**
+  Hospital dashboards
+  
+  Telemedicine platforms
+  
+  Health analytics and reporting
+  
+
+### 👋 HelloAPI: Minimal Greeting Service
+Purpose: A simple starter API for testing FastAPI setup and deployment.
+
+  **🔧 Key Features**
+  Endpoint: /hello/{name} returns a personalized greeting.
+  
+  **🧠 Use Case**: CI/CD pipeline validation, introduction to fast api, onboarding new devs.
+
+### 🛡️ InsuranceAPI: ML-Powered Risk Prediction
+Purpose: Predicts insurance risk or premium category using structured health and lifestyle data.
+
+  **🔧 Key Features**
+  ML Integration: Uses a trained model via predict_from_model().
+  
+  Computed Inputs: BMI, city tier, lifestyle risk, age group.
+  
+  Endpoints:
+  
+  /predict: Accepts UserData, returns PredictedResponse.
+  
+  /health: Model health check.
+  
+  /: Welcome message.
+  
+  **🧠 Use Cases**
+  Insurance quoting engines
+  
+  Risk segmentation dashboards
+  
+  Agentic decision support systems
+
+
+- ⭕ [API Link](http://51.20.18.141:8000/)
+- ✔️ [GUI Link](http://51.20.18.141:8501/)
+
+## 🧩 Final Thoughts
+
+This repository brings together modular, production-ready FastAPI services—DoctorAPI, HelloAPI, and InsuranceAPI—each tailored for real-world use cases in healthcare, testing, and insurance risk modeling. With clean schema validation, computed logic, and ML integration, these APIs are designed for extensibility, agentic orchestration, and seamless deployment.
