@@ -5,9 +5,9 @@ from response_model import PredictedResponse
 from model_functions import predict_from_model, MODEL_VERSION, model
 
 app = FastAPI(
-    title="🛡️ Insurance Risk Predictor API",
+    title="🛡️ Insurance Premium Category Predictor API",
     description="""
-    Welcome to the Insurance Risk Predictor API — your intelligent gateway to assessing insurance risk profiles 
+    Welcome to the Insurance Premium Category Predictor API — your intelligent gateway to assessing insurance premium category profiles 
     using machine learning. This API transforms user health and lifestyle data into actionable insights, 
     helping insurers and analysts make smarter, faster decisions.
 
