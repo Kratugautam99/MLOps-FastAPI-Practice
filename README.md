@@ -43,7 +43,7 @@ cd MLOps-Dagshub
 
 ---
 
-## 🔗 Quick Access
+## 🔗 Quick Access to Dagshub Account
 
 - 🔍 [View Files](https://dagshub.com/kratugautam99/MLOps-Dagshub)  
 - 📂 [Explore Datasets](https://dagshub.com/kratugautam99/MLOps-Dagshub/datasets)  
@@ -54,62 +54,60 @@ cd MLOps-Dagshub
 
 ## ⚓ Custom API Developments
 
-### 🩺 DoctorAPI: Comprehensive Patient Data Management
-Purpose: A full-featured REST API for managing patient records in healthcare systems.
-
-  **🔧 Key Features**
-  CRUD Operations: Add, edit, delete, and retrieve patient records.
-  
-  Computed Fields: BMI and health verdict (Underweight, Normal, Overweight, Obese) are auto-calculated.
-  
-  Sorting & Filtering: Patients can be sorted by age, height, weight, or BMI.
-  
-  Schema Validation: Strong Pydantic models ensure data integrity.
-  
-  Persistence: Uses patients.json for lightweight storage.
-  
-  **🧠 Use Cases**
-  Hospital dashboards
-  
-  Telemedicine platforms
-  
-  Health analytics and reporting
-  
-
-### 👋 HelloAPI: Minimal Greeting Service
-Purpose: A simple starter API for testing FastAPI setup and deployment.
-
-  **🔧 Key Features**
-  Endpoint: /hello/{name} returns a personalized greeting.
-  
-  **🧠 Use Case**: CI/CD pipeline validation, introduction to fast api, onboarding new devs.
-
-### 🛡️ InsuranceAPI: ML-Powered Risk Prediction
-Purpose: Predicts insurance risk or premium category using structured health and lifestyle data.
-
-  **🔧 Key Features**
-  ML Integration: Uses a trained model via predict_from_model().
-  
-  Computed Inputs: BMI, city tier, lifestyle risk, age group.
-  
-  Endpoints:
-  
-  /predict: Accepts UserData, returns PredictedResponse.
-  
-  /health: Model health check.
-  
-  /: Welcome message.
-  
-  **🧠 Use Cases**
-  Insurance quoting engines
-  
-  Risk segmentation dashboards
-  
-  Agentic decision support systems
+A suite of modular FastAPI services designed for real-world deployment, agentic orchestration, and seamless integration.
 
 
-- ⭕ [API Link](http://51.20.18.141:8000/)
-- ✔️ [GUI Link](http://51.20.18.141:8501/)
+
+### 🩺 **DoctorAPI** — Comprehensive Patient Data Management  
+**Purpose:** Full-featured REST API for managing patient records in healthcare systems.
+
+#### 🔧 Key Features
+- **CRUD Operations:** Add, edit, delete, and retrieve patient records  
+- **Computed Fields:** Auto-calculates BMI and health verdict (Underweight, Normal, Overweight, Obese)  
+- **Sorting & Filtering:** Sort by age, height, weight, or BMI  
+- **Schema Validation:** Robust Pydantic models ensure data integrity  
+- **Persistence:** Lightweight storage via `patients.json`
+
+#### 🧠 Use Cases
+- Hospital dashboards  
+- Telemedicine platforms  
+- Health analytics and reporting
+
+
+
+### 👋 **HelloAPI** — Minimal Greeting Service  
+**Purpose:** A simple starter API for testing FastAPI setup and deployment.
+
+#### 🔧 Key Features
+- **Endpoint:** `/hello/{name}` returns a personalized greeting
+
+#### 🧠 Use Case
+- CI/CD pipeline validation  
+- FastAPI onboarding for new developers
+
+
+
+### 🛡️ **InsuranceAPI** — ML-Powered Risk Prediction  
+**Purpose:** Predicts insurance risk or premium category using structured health and lifestyle data.
+
+#### 🔧 Key Features
+- **ML Integration:** Uses trained model via `predict_from_model()`  
+- **Computed Inputs:** BMI, city tier, lifestyle risk, age group  
+- **Endpoints:**  
+  - `/predict`: Accepts `UserData`, returns `PredictedResponse` (test via `/docs`)  
+  - `/health`: Model health check  
+  - `/`: Welcome message
+
+#### 🧠 Use Cases
+- Insurance quoting engines  
+- Risk segmentation dashboards  
+- Agentic decision support systems
+
+#### 🔗 Access Links
+- ⭕ [API Dashboard](http://16.171.2.73:8000/)  
+- ✔️ [Streamlit GUI](http://16.171.2.73:8501/)
+
+---
 
 ## 🧩 Final Thoughts
 
