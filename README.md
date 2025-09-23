@@ -6,28 +6,11 @@ A streamlined MLOps pipeline integrating version control, model tracking, and re
 
 ## 📚 Table of Contents
 
-- [MLOps-Dagshub](#mlops-dagshub)
 - [🚀 Features](#-features)
 - [🔧 Tech Stack](#-tech-stack)
-  - [Python](#python)
-  - [DVC (Data Version Control)](#dvc-data-version-control)
-  - [Git](#git)
-  - [DagsHub](#dagshub)
-  - [MLflow](#mlflow)
-  - [FastAPI](#fastapi)
 - [🏃 Getting Started](#-getting-started)
 - [🔗 Quick Access to Dagshub Account](#-quick-access-to-dagshub-account)
 - [⚓ Custom API Developments](#-custom-api-developments)
-  - [🩺 DoctorAPI — Comprehensive Patient Data Management](#-doctorapi--comprehensive-patient-data-management)
-    - [🔧 Key Features](#-key-features)
-    - [🧠 Use Cases](#-use-cases)
-  - [👋 HelloAPI — Minimal Greeting Service](#-helloapi--minimal-greeting-service)
-    - [🔧 Key Features](#-key-features-1)
-    - [🧠 Use Case](#-use-case)
-  - [🛡️ InsuranceAPI — ML-Powered Risk Prediction](#-insuranceapi--ml-powered-risk-prediction)
-    - [🔧 Key Features](#-key-features-2)
-    - [🧠 Use Cases](#-use-cases-1)
-    - [🔗 Access Links](#-access-links)
 - [🧩 Final Thoughts](#-final-thoughts)
 
 
