@@ -115,6 +115,7 @@ A suite of modular FastAPI services designed for real-world deployment, agentic 
 
 #### 🔗 Access Links
 - ⚓ [Docker Repository for Initialization](https://hub.docker.com/r/kratuzen/insurance-prediction-api)
+- Run Docker Commands first then click below
 - ⭕ [API Dashboard](http://localhost:8000/docs)  
 - ✔️ [Streamlit GUI](http://localhost:8501/)
 
