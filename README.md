@@ -1,8 +1,8 @@
 ---
 
-# MLOps-Dagshub-Practice
+# MLOps-FastAPI-Practice
 
-A streamlined MLOps pipeline integrating version control, model tracking, and reproducibility using **DagsHub**. Ideal for collaborative machine learning workflows and efficient experiment tracking.
+A streamlined MLOps pipeline integrating version control, model tracking, and reproducibility using **DagsHub/MLFlow**. Ideal for collaborative machine learning workflows and efficient experiment tracking. Along with Backend API Developments with **FastAPI [Deployed Insurance API in DockerHub]**.
 
 ## 📚 Table of Contents
 
@@ -47,18 +47,18 @@ A streamlined MLOps pipeline integrating version control, model tracking, and re
 Clone the repo and enter the directory:
 
 ```bash
-git clone https://github.com/your_username/MLOps-Dagshub.git
-cd MLOps-Dagshub
+git clone https://github.com/your_username/MLOps-FastAPI-Practice.git
+cd MLOps-FastAPI-Practice
 ```
 
 ---
 
 ## 🔗 Quick Access to Dagshub Account
 
-- 🔍 [View Files](https://dagshub.com/kratugautam99/MLOps-Dagshub)  
-- 📂 [Explore Datasets](https://dagshub.com/kratugautam99/MLOps-Dagshub/datasets)  
-- 🧪 [Experiment Runs](https://dagshub.com/kratugautam99/MLOps-Dagshub/experiments)  
-- 📦 [Registered Models](https://dagshub.com/kratugautam99/MLOps-Dagshub/models)  
+- 🔍 [View Files](https://dagshub.com/kratugautam99/MLOps-FastAPI-Practice)  
+- 📂 [Explore Datasets](https://dagshub.com/kratugautam99/MLOps-FastAPI-Practice/datasets)  
+- 🧪 [Experiment Runs](https://dagshub.com/kratugautam99/MLOps-FastAPI-Practice/experiments)  
+- 📦 [Registered Models](https://dagshub.com/kratugautam99/MLOps-FastAPI-Practice/models)  
 
 ---
 
