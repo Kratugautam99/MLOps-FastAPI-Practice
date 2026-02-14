@@ -1,8 +1,8 @@
----
-
 # MLOps-FastAPI-Practice
 
 A streamlined MLOps pipeline integrating version control, model tracking, and reproducibility using **DagsHub/MLFlow**. Ideal for collaborative machine learning workflows and efficient experiment tracking. Along with Backend API Developments with **FastAPI [Deployed Insurance API in DockerHub]**.
+
+---
 
 ## 📚 Table of Contents
 
@@ -13,6 +13,7 @@ A streamlined MLOps pipeline integrating version control, model tracking, and re
 - [⚓ Custom API Developments](#-custom-api-developments)
 - [🧩 Final Thoughts](#-final-thoughts)
 
+---
 
 ## 🚀 Features
 
@@ -21,6 +22,8 @@ A streamlined MLOps pipeline integrating version control, model tracking, and re
 - 📊 Visual insights into model performance  
 - 🤝 Seamless collaboration via DagsHub’s web UI  
 - 🛠️ CI/CD integration for model deployment (optional extension)  
+
+---
 
 ## 🔧 Tech Stack
 
@@ -41,6 +44,8 @@ A streamlined MLOps pipeline integrating version control, model tracking, and re
 
 - **FastAPI**  
   A lightweight, high-performance Python web framework. Use it to serve trained models through RESTful API endpoints for real-time or batch predictions.
+
+---
 
 ## 🏃 Getting Started
 
@@ -66,8 +71,19 @@ cd MLOps-FastAPI-Practice
 
 A suite of modular FastAPI services designed for real-world deployment, agentic orchestration, and seamless integration.
 
+---
 
+### 👋 **HelloAPI** — Minimal Greeting Service  
+**Purpose:** A simple starter API for testing FastAPI setup and deployment.
 
+#### 🔧 Key Features
+- **Endpoint:** `/hello/{name}` returns a personalized greeting
+
+#### 🧠 Use Case
+- CI/CD pipeline validation  
+- FastAPI onboarding for new developers
+
+---
 ### 🩺 **DoctorAPI** — Comprehensive Patient Data Management  
 **Purpose:** Full-featured REST API for managing patient records in healthcare systems.
 
@@ -83,19 +99,7 @@ A suite of modular FastAPI services designed for real-world deployment, agentic 
 - Telemedicine platforms  
 - Health analytics and reporting
 
-
-
-### 👋 **HelloAPI** — Minimal Greeting Service  
-**Purpose:** A simple starter API for testing FastAPI setup and deployment.
-
-#### 🔧 Key Features
-- **Endpoint:** `/hello/{name}` returns a personalized greeting
-
-#### 🧠 Use Case
-- CI/CD pipeline validation  
-- FastAPI onboarding for new developers
-
-
+---
 
 ### 🛡️ **InsuranceAPI** — ML-Powered Risk Prediction  
 **Purpose:** Predicts insurance risk or premium category using structured health and lifestyle data.
